@@ -1,0 +1,14 @@
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 0.3s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+.inner:hover h5{
+    color: white;
+    transform: scale(0.8);
+}
